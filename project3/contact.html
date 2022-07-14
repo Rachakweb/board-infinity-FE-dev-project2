@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gossner College Ranchi</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5.15.4/css/fontawesome.min.css">
+    <script src="https://kit.fontawesome.com/3ccc068ba6.js" crossorigin="anonymous"></script>
+</head>
+<body bgcolor="wine">
+<section class="sub-header">
+    <nav>
+        <a href="index.html"><img src="23_06_17_110819_GL_LL.jpg " width="100" height="100"></a>
+        <div class="nav-links" id="navlinks">
+            <i class="fa fa-times" onclick="hideMenu()"></i>
+            <ul>
+                <li><a href="index.html" class="hover-line">HOME</a></li>
+                <li><a href="about.html" class="hover-line">ABOUT</a></li>
+                <li><a href="course.html" class="hover-line">COURSE</a></li>
+                <li><a href="blog.html" class="hover-line">BLOG</a></li>
+                <li><a href="contact.html" class="hover-line">CONTACT</a></li>
+            </ul>       
+        </div>
+        <i class="fa fa-bars" onclick="showMenu()"></i>
+    </nav>
+    <h1>Contact Us</h1>
+
+</section>
+ 
+<!------ Contact Us ------>
+
+<section class="location">
+
+    <!-- <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3662.91248133303!2d85.32375051480734!3d23.355185084785614!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x39f4e1a6703e0cf1%3A0xe90470de80c22839!2sGossner%20College%20Ranchi!5e0!3m2!1sen!2sin!4v1647095248726!5m2!1sen!2sin" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe> -->
+
+
+</section>
+
+<section class="contact-us">
+
+    <div class="row">
+        <div class="contact-col">
+            <div>
+                <i class="fa fa-location"></i>
+                <span>
+                    <h5>Lalpur,</h5>
+                    <p>Ranchi, Jharkhand 834001</p>
+                </span>
+            </div>
+            <div>
+                <i class="fa fa-phone"></i>
+                <span>
+                    <h5>06203616807</h5>
+                    <p>Monday to Saturaday, 10AM to 6PM</p>
+                </span>
+            </div>
+            <div>
+                <i class="fa fa-envelope-o"></i>
+                <span>
+                    <h5>ravikumar898911@gmail.com</h5>
+                    <p>Email us your query</p>
+                </span>
+            </div>
+        </div>
+        <div class="contact-col">
+
+            <form action="form-handler.php" method="post">
+                <input type="text" name="name" placeholder="Enter your name" required>
+                <input type="email" name="email" placeholder="Enter Email Address" required>
+                <input type="text" name="subject" placeholder="Enter your subject" required>
+                <textarea rows="8" name="message" placeholder="Message" required></textarea>
+                <button type="submit" class="hero-btn red-btn">Send Message</button>
+            </form>
+        </div>
+    </div>
+</section>
+
+
+
+
+
+
+
+
+<!------ Footer ------>
+
+<section class="footer">
+    <h4>About Us</h4>
+    <p>Our mission is to provide the vista of university education to the deserving students coming from socially,<br> economically backward and underprivileged communities of this region, particularly the Scheduled Tribes, Scheduled Castes and other Backward Communities. <br></p>
+    <div class="icons">
+        <i class="fa fa-facebook"></i>
+        <i class="fa fa-twitter"></i>
+        <i class="fa fa-instagram"></i>
+        <i class="fa fa-linkedin"></i>
+    </div>
+    <p>Created by Bhupendra Kumar Ravi</p>
+</section>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!-------JavaScript for Toggle Menu------->
+<script>
+    
+    var navlinks = document.getElementById("navlinks");
+    function showMenu(){
+        navlinks.style.right = "0";
+    }
+    function hideMenu(){
+        navlinks.style.right = "-200px";
+    }
+</script>
+
+</body>
+</html>
